@@ -1,0 +1,9 @@
+java.text.ParseException: Unable to parse: 2023-07-15
+	at org.apache.commons.lang3.time.FastDateParser.parse(FastDateParser.java:68)
+	at org.apache.commons.lang3.time.FastDateFormat.parse(FastDateFormat.java:89)
+	at org.apache.commons.lang3.time.FastDateFormatTest.testFormat(FastDateFormatTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+Expected: parse("2023-07-15") to return a non-null Date with the correct year/month/day.
+Actual:   ParseException thrown because regex special character '-' was not escaped
+          in buildRegex(), causing the compiled Pattern to fail matching.

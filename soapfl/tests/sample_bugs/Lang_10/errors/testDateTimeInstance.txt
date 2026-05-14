@@ -1,0 +1,11 @@
+java.text.ParseException: Unable to parse: 1/1/70 12:00 AM
+	at org.apache.commons.lang3.time.FastDateParser.parse(FastDateParser.java:68)
+	at org.apache.commons.lang3.time.FastDateFormat.parse(FastDateFormat.java:89)
+	at org.apache.commons.lang3.time.FastDateFormatTest.testDateTimeInstance(FastDateFormatTest.java:36)
+
+Expected: Parsed Date should not be null.
+Actual:   null returned from parse() without throwing an exception (silent failure),
+          then the null-check assertion in the test caught the issue.
+          Root cause: FastDateParser.parse(String,ParsePosition) returns null
+          without setting the error index, and the regex in buildRegex() does
+          not escape literal characters properly.

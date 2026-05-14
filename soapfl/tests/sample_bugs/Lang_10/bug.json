@@ -1,0 +1,10 @@
+{
+  "project": "Lang",
+  "bug_id": "10",
+  "test_class": "FastDateFormatTest",
+  "failed_tests": [
+    "testFormat",
+    "testDateTimeInstance"
+  ],
+  "ground_truth_buggy_method": "org.apache.commons.lang3.time.FastDateParser::parse(String)"
+}
