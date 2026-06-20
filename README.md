@@ -40,7 +40,7 @@ The framework combines:
        width="425"
        alt="StarDust Interface">
   <br>
-  <em>StarDust Conversational AI Interface</em>
+  
 </p>
 
 The SOAPFL pipeline consists of **3 stages and 7 tasks**.
