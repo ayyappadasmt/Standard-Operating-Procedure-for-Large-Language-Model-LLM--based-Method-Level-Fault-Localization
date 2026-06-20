@@ -1,3 +1,4 @@
+<img width="425" height="583" alt="Screenshot 2026-05-15 112209" src="https://github.com/user-attachments/assets/b195037c-232b-410f-8f1f-153cd4232796" />
 # SOAPFL: LLM-Based Method-Level Fault Localization
 
 SOAPFL is an implementation of the methodology proposed in the paper:
