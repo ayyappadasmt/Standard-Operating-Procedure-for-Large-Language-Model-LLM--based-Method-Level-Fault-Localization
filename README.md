@@ -35,7 +35,13 @@ The framework combines:
 ---
 
 ## SOAPFL Architecture
-<img width="425" height="583" alt="Screenshot 2026-05-15 112209" src="https://github.com/user-attachments/assets/b195037c-232b-410f-8f1f-153cd4232796" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b195037c-232b-410f-8f1f-153cd4232796"
+       width="425"
+       alt="StarDust Interface">
+  <br>
+  <em>StarDust Conversational AI Interface</em>
+</p>
 
 The SOAPFL pipeline consists of **3 stages and 7 tasks**.
 
